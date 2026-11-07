@@ -1,0 +1,4 @@
+{
+  "name": "Luxoranova Quantum9",
+  "install": "bash -c 'set -euo pipefail; if [ -f .cursor/install.sh ]; then exec bash .cursor/install.sh; fi; f=$(find . -maxdepth 4 -type f -path \"*/Luxoranova-Quantum9/.cursor/install.sh\" -print -quit); test -n \"$f\"; exec bash \"$f\"'"
+}
